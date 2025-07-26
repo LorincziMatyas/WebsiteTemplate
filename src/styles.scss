@@ -1,1 +1,41 @@
-/* You can add global styles to this file, and also import other style files */
+$main: #6f4e37;
+$main-light: #eedbb6;
+$main-dark: #3d2b2b;
+$secondary: #a0522d;
+
+$light: #f8f8f8;
+$misty: #cccccc;
+$dark: #2a1e19;
+
+$border-radius-main: 20px;
+$border-radius-main-half: 10px;
+
+body {
+  margin: 0px;
+  padding: 0px;
+  width: 100%;
+  min-height: 90vh;
+  background-color: $main-light;
+}
+
+.sizeBox {
+  width: 20px;
+  height: 20px;
+}
+
+.welcome-section {
+  width: 100%;
+  height: 95vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+section {
+  width: 100%;
+  display: flex;
+  min-height: 10vh;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}

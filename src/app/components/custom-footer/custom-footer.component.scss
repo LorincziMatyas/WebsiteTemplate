@@ -1,0 +1,17 @@
+@use "../../../styles.scss" as *;
+
+footer {
+  height: 5vh;
+  width: 100vw;
+  display: flex;
+  color: $light;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+  background-color: $dark;
+}
+
+footer a {
+  text-decoration: none;
+  color: $light;
+}
